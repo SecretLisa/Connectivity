@@ -17,7 +17,7 @@ Connectivity wraps Apple's Reachability code to provide a reliable measure of wh
   s.frameworks      = 'SystemConfiguration'
   s.weak_frameworks = 'Network', 'Combine'
   s.source_files = 'Connectivity/Classes/**/*'
-  s.resource_bundles = { 'Connectivity_Privacy' => ['Example/Pods/Target\ Support\ Files/Connectivity-iOS/PrivacyInfo.xcprivacy'] }
+  #s.resource_bundles = { 'Connectivity_Privacy' => ['Example/Pods/Target\ Support\ Files/Connectivity-iOS/PrivacyInfo.xcprivacy'] }
   s.exclude_files = [
     'Connectivity/Classes/Reachability/LICENSE.txt'
   ]
